@@ -1,6 +1,8 @@
-# FFT Process IP 코어
+# 512-point FFT 코어
 
 ## 프로젝트 설명
-512-point FFT 하드웨어 Processor를 SystemVerilog를 이용해 설계한다.
+이 프로젝트는 Mathlab을 통해 512-point 고정소수점 FFT를 검증하고 radix - ![formula](https://latex.codecogs.com/svg.image?2^2) FFT를 파이프라인 구조로 설계합니다. 
 
-이 프로젝트에서는 radix - ![formula](https://latex.codecogs.com/svg.image?2^2) FFT를 구현하고 파이프라인 구조를 활용하여 
+
+
+512-point FFT 코어를 SystemVerilog를 이용해 설계합니다.
