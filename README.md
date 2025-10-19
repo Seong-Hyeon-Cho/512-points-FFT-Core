@@ -13,7 +13,8 @@
 ### radix - ![formula](https://latex.codecogs.com/svg.image?2^2) FFT
  - radix-2 두 단계를 한 묶음으로 만들어 radix-4와 비슷한 효율
  - 한 스테이지 안에서 2개의 radix-2 butterfly를 연달아 수행(+/- 합차 -> twiddle 곱 -> 다시 +/- 합차)<br>
- [예시 8-point radix - ![formula](https://latex.codecogs.com/svg.image?2^2) 구조]<br>
+
+<br>[예시 8-point radix - ![formula](https://latex.codecogs.com/svg.image?2^2) 구조]<br><br>
 <img width="1374" height="1024" alt="Image" src="https://github.com/user-attachments/assets/d15fefdb-5fe0-43fc-b8b3-dd5ff66ac3f0" /><br><br>
 
 [예시 256-point radix - ![formula](https://latex.codecogs.com/svg.image?2^2) SDF Pipeline FFT Architecture]<br>
