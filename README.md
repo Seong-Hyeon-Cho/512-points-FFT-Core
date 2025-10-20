@@ -41,6 +41,11 @@ Convergent Block Floating-Point
     - BFP(공통 지수)로 오버플로 억제 + 리소스/전력 절감
     - Convergent(짝수 반올림)으로 편향 최소화, 누적 처리(FFT, 필터 체인)에서 DC/왜곡 누적 억제
     - SQNR은 보통 truncation 대비 수 dB 개선(정확치는 비트폭·블록크기·분포에 의존)
+<br>
+
+:scroll: 출처 논문
+A New Approach to Pipeline FFT Processor,IEEE, Shousheng He, April.1996
+
 
 ### 성능 확인
 #### ASIC 성능 점검
